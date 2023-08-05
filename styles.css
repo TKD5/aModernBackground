@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    border-style: inset;
+    border:  4px snow black gray;
+    width: fit-content;
+    height: 600px;
+    padding: 10px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: azure;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px ;
+}
+
+html {
+    background: linear-gradient(-45deg, rgb(105, 62, 62), rgb(39, 39, 90), rgb(89, 143, 89), rgb(89, 47, 54));
+    background-size: 400% 400%;
+    animation: background 15s ease infinite;
+    width: 100%;
+    height: auto;
+}
+
+@keyframes background {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
